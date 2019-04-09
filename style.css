@@ -1,0 +1,246 @@
+body{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    scroll-behavior: smooth;    
+    }
+
+    .sticky {
+        position: fixed;
+        top: 0;
+        width: 100%;
+      }
+
+    li{
+        text-decoration: none;
+        list-style: none;
+        display: inline;
+    }
+
+    #iconImg{
+        height:50px;
+        width: 50px;
+
+    }
+
+    #techIcon{
+        height: 100px;
+        width: 100px;
+    }
+
+    /*************************************************************************/
+    #topNav{
+        grid-column: 1 /span 3;
+        grid-row: 1;
+       /* background-color: red;*/
+    }
+
+    #navBar{ 
+        padding-top: 30px;
+        grid-column: 2;
+        grid-row: 2;
+        /*background-color: yellow;*/
+        text-align: center;
+        padding-left: 75px;
+    }
+    #headerTitle{
+        grid-column: 1;
+        grid-row: 2;
+        /*background-color: yellow;*/
+        float: left;
+    }
+    #externalLinks{
+        grid-column: 3;
+        grid-row: 2;
+        /*background-color: yellow;*/
+        text-align: right;
+    }
+    #externalLinks a{
+        list-style: none;
+        text-decoration: none;
+    }
+    .pageButton{
+        background-color: transparent;
+        border: none;
+        text-align: center;
+        font-size: 20px;
+    }
+
+    /***************************************************************/
+    #aboutTop{
+        grid-column: 1 /span 3;
+        grid-row: 3;
+        /*background-color: blue;*/
+    }
+    #aboutContent{
+        grid-column: 1 /span 2;
+        grid-row: 4;
+        /*background-color: lightgreen;*/
+    }
+    #portrait{
+        height: 450px;
+        width: 450px;
+        text-align: center;
+    }
+    #bio{
+        grid-column: 2 span 3;
+        grid-row: 4; 
+        /*background-color: lightgreen;*/
+        text-align: center;
+        padding-top: 125px;
+        padding-right: 50px;
+    }
+    #blurb{
+        font-style: italic;
+    }
+    #title{
+        text-align: center;
+    }
+    #aboutHeader{
+        font-size: 55px;
+    }
+
+    /*****************************************************************/
+    #techTop{
+        grid-column: 1 /span 3;
+        grid-row: 5;
+        /*background-color:green;*/
+    }
+
+    #webTech{
+        grid-column: 1 /span 3;
+        grid-row: 6;
+        /*background-color: aquamarine;*/
+        padding: 10px;
+        text-align: center;
+    }
+
+    #techIcon{
+        height: 150px;
+        width: 150px;
+        align-items: center;
+    }
+
+    .techCard{
+        background-color: transparent;
+        border-radius: 5px;
+        border: none;
+        padding: 15px 10px;
+        line-height: 5px; 
+        margin: 15px;
+        display: inline;
+    }
+
+    #skillTag{
+        text-align: left;
+    }
+      
+
+    /****************************************************************/
+    #portfolioTop{
+        grid-column: 1 /span 3;
+        grid-row: 7;
+        /*background-color: gold;*/
+    }
+    #webDevContainer{
+        grid-column: 1 /span 3;
+        grid-row: 8;
+        /*background-color: pink;*/
+        padding: 5px;
+        text-align: center;
+    }
+
+    .devCard{
+        background-color:white;
+        border-radius: 10px;
+        border: none;
+        font-size: 12px;
+        padding: 5px 5px;
+        line-height: 10px;
+        align-content: center;
+        /*box-shadow: 0 8px 16px 0 black;*/
+        margin: 15px;
+    }
+   
+    #webDevImg{
+        border-radius: 10px;
+        border:none;
+        box-shadow: 0 4px 8px 0 black;
+        transition: 0.3s;
+        height: 200px;
+        width: 200px;
+        border: none;
+
+    }
+    #webDevImg:hover {
+        box-shadow: 0 8px 16px 0 black;
+    
+    }
+    .devContent{
+        height: 175px;
+        width: 200px;
+        padding: 2px 25px;
+        font-size: 15px;
+        line-height: 20px;
+    }
+    
+    #webTag{
+        text-align: left;
+        font-size: 30px;
+    }
+
+
+
+
+
+    /***************************************************************/
+    #artTop{
+        grid-column: 1 /span 3;
+        grid-row: 9;
+        padding: 10px;
+        text-align: center;
+    }
+
+    #art{
+        grid-column: 1 /span 3;
+        grid-row: 10;
+        text-align: center;
+    }
+
+    #illImg{
+        height: 125px;
+        width: 125px;
+    }
+
+    #artTag{
+        text-align: left;
+        font-size: 30px;
+    }
+
+    /**********************************************************/
+    #contactTop{
+        grid-column: 1 /sapn 3;
+        grid-row: 11;
+        /*background-color: chocolate;*/
+    }
+
+    #inquireContainer{
+        grid-column: 1 /span 3;
+        grid-row: 12;
+        height: 200px;
+        /*background-color: cornflowerblue;*/
+    }
+
+    #contactForm{
+        text-align: center;
+        margin: 100px;
+    }
+
+
+    /***********************************************************/
+
+    @media only screen and (max-width: 425px){
+
+
+    }

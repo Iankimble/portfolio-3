@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!--Style sheet-->
+    <link rel="stylesheet" type="text/css" href="./style.css">
+    <!--Light box image handler-->
+    <link rel="stylesheet" type="text/css" href="./lightbox.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <title>Ian Kimble Portfolio</title>
+</head>
+
+<body>
+    <!--Nav Bar-->
+    <!--<div id="topNav"> top nav 1</div>-->
+
+    <div id="headerTitle">
+        <!--Header-->
+        <h1>Welcome To Greezing Design</h1>
+    </div>
+
+    <div id="navBar">
+        <button class="pageButton" id="about">About</button>
+        <button class="pageButton" id="skills">Skills</button>
+        <button class="pageButton" id="portfolio">Portfolio</button>
+        <button class="pageButton" id="contact">Contact</button>
+    </div>
+    <!--External Links-->
+    <div id="externalLinks">
+        <ul>
+            <a href="https://www.linkedin.com/in/ian-kimble-135593173/ " target="_blank"><li><img src="./images/icons/linkedIn_button_fixed.png"
+                        id="iconImg"></li></a>
+            <a href="https://github.com/Iankimble" target="_blank"><li><img src="./images/icons/github_button_fixed.png" id="iconImg"></li></a>
+            <a href="https://www.behance.net/iankimble" target="_blank"><li><img src="./images/icons/behance_button_fixed.png" id="iconImg"></li></a>
+        </ul>
+    </div>
+
+    <!--About Content-->
+    <!--<div id="aboutTop">Top About 3</div>-->
+    <div id="aboutContent">
+        <!-- Self portrait in background, brief bio to left, web tech and design tech icons to right-->
+        <div id="pictureCard"><img id="portrait" src="./images/Ian_kimble_portrait_resized.png">
+        </div>
+    </div>
+    <div id="bio">
+        <h1 id="aboutHeader">Ian Kimble</h1>
+        <h4 id="title"> Web Developer | Graphic Designer | Illustrator </h4>
+        <p id="blurb">"I believe a good designer is not just a person who soley makes aesthetically pleasing works. They
+            are also avid listeners, open communicators, and imaginative problem solvers who strive to work cooperatively
+            to complete a common goal."</p>
+    </div>
+
+    <!--Web Technologies-->
+    <!--<div id="techTop">Top Skills 5</div>-->
+    <div id="webTech">
+        <h1 id="skillTag">Skills</h1>
+
+    <div class="techCard">
+            <img id="techIcon" src="./images/icons/htmlTransparent.png">
+        </div>
+
+        <div class="techCard">
+            <img id="techIcon" src="./images/icons/cssTransparent.png">
+        </div>
+
+        <div class="techCard">
+            <img id="techIcon" src="./images/icons/javascriptTransparent.png">
+        </div>
+
+        <div class="techCard">
+            <img id="techIcon" src="./images/icons/nodeTransparent.png">
+        </div>
+
+        <div class="techCard">
+            <img id="techIcon" src="./images/icons/mongooseTransparent.png">
+        </div>
+
+        <br>
+        <div class="techCard">
+            <img id="techIcon" src="./images/icons/mysqlTransparent.png">
+        </div>
+        <div class="techCard">
+            <img id="techIcon" src="./images/icons/sequelizeTransparent.png">
+        </div>
+        <div class="techCard">
+            <img id="techIcon" src="./images/icons/expressjs.png">
+        </div>
+
+        <div class="techCard">
+            <img id="techIcon" src="./images/icons/reactTransparent.png">
+        </div>
+        <div class="techCard">
+            <img id="techIcon" src="./images/icons/mongodbTransparent.png">
+        </div>
+    </div>
+
+
+
+
+    <!--Web Development-->
+    <!--<div id="portfolioTop"> Top Portfolio 7</div>-->
+    <div id="portfolioTop"></div>
+    <div id="webDevContainer">
+        <div id="webDesign">
+            <h2 id="webTag">Web Development</h2>
+            <ul id="wdlist">
+                <li><button class="devCard" id="fblink"><img id="webDevImg" src="./images/WebDesignImages/newFstBrkWeb.png">
+                        <div class="devContent">
+                            <h3>FST BRK</h3>
+                            <br>
+                            <p>HTML, CSS, Javascript, Node.js</p>
+                        </div></button></li>
+
+                <li><button class="devCard" id="bwlink"><img id="webDevImg" src="./images/WebDesignImages/blackuweather_logo.png">
+                        <div class="devContent">
+                            <h3>Black-U-Weather</h3>
+                            <br>
+                            <p>HTML,CSS, javascript, Node.js, Open Weather API, Giphy API</p>
+                        </div>
+                    </button></li>
+                <li><button class="devCard" id="21link"><img id="webDevImg" src="./images/WebDesignImages/21ViceWeb.png">
+                        <div class="devContent">
+                            <h3>21 Vice</h3>
+                            <br>
+                            <p>HTML, CSS Boot Strap, Node.js, React</p>
+                        </div>
+                    </button></li>
+                <li><button class="devCard" id="foodlink"><img id="webDevImg" src="./images/WebDesignImages/Food_App.png">
+                        <div class="devContent">
+                            <h3>Quick Meal</h3>
+                            <br>
+                            <p>HTML,CSS, javascript, API, Google Maps API</p>
+                        </div>
+                    </button></li>
+            </ul>
+        </div>
+    </div>
+
+    <!--Visual Art-->
+    <!-- Graphic Design-->
+
+    <!--<div id="artTop"> Top Art 9</div>-->
+    <div id="art">
+        <!--<div id="graphicDesign">-->
+        <h2 id="artTag">Graphic Design | Illustration</h2>
+        <li><a href="./images/graphicDesignImages/21_vice_portfolio.png " data-lightbox="Graphic Design 1" data-title=" 21 Vice react game logo"><img
+                    id="illImg" src="./images/graphicDesignImages/21_vice_portfolio.png">
+            </a></li>
+        <li><a href="./images/graphicDesignImages/color_cave_portfolio.png " data-lightbox="Graphic Design 2" data-title=" Color Cave art collective logo"><img
+                    id="illImg" src="./images/graphicDesignImages/color_cave_portfolio.png">
+            </a></li>
+        <li><a href="./images/graphicDesignImages/diamond_portfolio.png" data-lightbox="Graphic Design 3" data-title=" Diamond Kenney SEO logo"><img
+                    id="illImg" src="./images/graphicDesignImages/diamond_portfolio.png">
+            </a></li>
+        <li><a href="./images/graphicDesignImages/hair_plug_portfolio.png" data-lightbox="Graphic Design 4" data-title=" Hair Plug hair products logo"><img
+                    id="illImg" src="./images/graphicDesignImages/hair_plug_portfolio.png">
+            </a></li>
+
+        <!--</div>-->
+        <!-- Illustration-->
+        <!--<div id="illustration">-->
+        <!--<h2>Illustration</h2>-->
+        <li><a href="./images/illustrationImages/footlocker_portfolio.png" data-lightbox="illustration 1" data-title="Foot Locker air max promotion"><img
+                    id="illImg" src="./images/illustrationImages/footlocker_portfolio.png">
+            </a></li>
+        <li><a href="./images/illustrationImages/kd_portfolio.png" data-lightbox="illustration 2" data-title=" Kevin Durant NBA illustration"><img
+                    id="illImg" src="./images/illustrationImages/kd_portfolio.png">
+            </a></li>
+        <li><a href="./images/illustrationImages/lebron_portfolio.png" data-lightbox="illustration-3" data-title="Lebron James NBA illustration"><img
+                    id="illImg" src="./images/illustrationImages/lebron_portfolio.png">
+            </a></li>
+        <li><a href="./images/illustrationImages/slayermoon_portfolio.png" data-lightbox="illustration-4" data-title=" Personal brand T-shirt Design"><img
+                    id="illImg" src="./images/illustrationImages/slayermoon_portfolio.png">
+            </a></li>
+        <!--</div>-->
+    </div>
+
+    <!-- Inquire-->
+    <!--<div id="contactTop">Top Contact 11</div>-->
+    <div id="inquireContainer">
+        <h1 id="inquireHeader">Inquiries</h1>
+        <div id="contactForm">
+            <h1>For more information please contact at:<br>
+            Iankimble571@gmail.com</h1>
+            <!--<form action="/action_page.php">
+                Name:<br>
+                <input type="text" name="firstname" value="Mickey">
+                <br> Email Address:<br>
+                <input type="text" name="lastname" value="Mouse">
+                <br> Subject:
+                <br>
+                <input type="text" name="lastname" value="Mouse">
+                <br> Message:
+                <br>
+                <input type="text" name="lastname" value="Mouse">
+                <br><br>
+                <input type="submit" value="Submit">
+            </form>-->
+        </div>
+    </div>
+
+    <!-- Javascript-->
+
+    <script src="./lightbox.js"></script>
+    <Script src="./script.js"></Script>
+
+</body>
+
+</html>
