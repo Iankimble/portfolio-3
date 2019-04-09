@@ -65,3 +65,8 @@ $("#21link").click(function(){
     console.log("21vicelink");
     window.open("https://twenty-one-dice.herokuapp.com/");
 });
+
+$("#bwlink").click(function(){
+    console.log("bwlink");
+    window.open(https://gentle-badlands-89286.herokuapp.com/);
+});
